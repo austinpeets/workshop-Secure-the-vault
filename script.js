@@ -12,11 +12,17 @@
 
 */
 
-// Create alert that says You have received this message because you have been chosen to open an important vault. Here is the secret combination:
+// Create equations with a button that gives you an answer.
 
-// Another alert that gives the combo
+// Create a prompt for the user to enter the combination from memory in order.
 
-// 
+// Create an alert that informs you if the combination is correct or not.
+
+// functions that interact with the onclick in html
+
+function alertFunction(){
+    alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination:")
+}
 
 function functionOne() {
     alert("10");
@@ -29,6 +35,8 @@ function functionTwo() {
 function functionThree() {
     alert("39")
 }
+
+//Prompt function where you type in the answer and lets you know if its wrong or not
 
 function functionFour() {
     const input = prompt("Enter the correct combo seperated by dashes")
